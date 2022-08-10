@@ -8,18 +8,27 @@ body {
 
 .words {
     border: 1px solid black;
-    padding: .5rem;
+    padding: 0.5rem;
     max-width: 50%;
     color: #fff;
-    border-radius: .3rem;
+    border-radius: 0.3rem;
     background-color: #cccaca;
     text-transform: uppercase;
     font-weight: bold;
     font-family: sans-serif;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    text-align: center;
+}
+
+.words span {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+@media (max-width: 576px) {
+    .words {
+        max-width: 100%;
+        margin: .5rem;
+    }
 }
 
 .red {
