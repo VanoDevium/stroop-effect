@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.words {
+    border: 1px solid black;
+    padding: .5rem;
+    max-width: 50%;
+    color: #fff;
+    border-radius: .3rem;
+    background-color: #cccaca;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
